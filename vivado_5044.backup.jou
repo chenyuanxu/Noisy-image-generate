@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 20 23:12:09 2019
+# Process ID: 5044
+# Current directory: D:/PROJECT_XL/10_vdma_hdmi_out_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5144 D:\PROJECT_XL\10_vdma_hdmi_out_8\vdma_hdmi_out.xpr
+# Log file: D:/PROJECT_XL/10_vdma_hdmi_out_8/vivado.log
+# Journal file: D:/PROJECT_XL/10_vdma_hdmi_out_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd}
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+synth_design -rtl -name rtl_1
+file mkdir D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 20 22:50:12 2019
+# Process ID: 5552
+# Current directory: D:/PROJECT_XL/10_vdma_hdmi_out_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8132 D:\PROJECT_XL\10_vdma_hdmi_out_8\vdma_hdmi_out.xpr
+# Log file: D:/PROJECT_XL/10_vdma_hdmi_out_8/vivado.log
+# Journal file: D:/PROJECT_XL/10_vdma_hdmi_out_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf

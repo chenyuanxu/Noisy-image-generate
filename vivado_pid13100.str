@@ -1,0 +1,3135 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 13100
+License: Customer
+
+Current time: 	Wed Nov 20 16:20:48 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 0 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivadoseven/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/vivadoseven/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: D:/PROJECT_XL/10_vdma_hdmi_out_7
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivadoseven/Vivado
+HDI_APPROOT: D:/vivadoseven/Vivado/2017.4
+RDI_DATADIR: D:/vivadoseven/Vivado/2017.4/data
+RDI_BINDIR: D:/vivadoseven/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/vivadoseven/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/PROJECT_XL/10_vdma_hdmi_out_7/vivado.log
+Vivado journal file location: 	D:/PROJECT_XL/10_vdma_hdmi_out_7/vivado.jou
+Engine tmp dir: 	D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 579 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+57934kb) [00:00:05]
+// [Engine Memory]: 502 MB (+374462kb) [00:00:05]
+// Opening Vivado Project: D:\PROJECT_XL\10_vdma_hdmi_out_7\vdma_hdmi_out.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 70 MB (+10434kb) [00:00:07]
+// [Engine Memory]: 573 MB (+48797kb) [00:00:07]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 34 MB. Current time: 11/20/19 4:20:50 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 627 MB (+26593kb) [00:00:15]
+// [GUI Memory]: 74 MB (+86kb) [00:00:16]
+// [Engine Memory]: 660 MB (+1268kb) [00:00:16]
+// [GUI Memory]: 80 MB (+2586kb) [00:00:16]
+// [Engine Memory]: 695 MB (+2684kb) [00:00:17]
+// Tcl Message: open_project D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/PROJECT_XL/10_vdma_hdmi_out_3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/PROJECT_XL/10_vdma_hdmi_out_7/repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivadoseven/Vivado/2017.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 901.379 ; gain = 180.484 
+// Project name: vdma_hdmi_out; location: D:/PROJECT_XL/10_vdma_hdmi_out_7; part: xc7z020clg400-2
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 731 MB (+552kb) [00:00:24]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cj): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // x (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 20 16:21:12 2019] Launched synth_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 8 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+// [GUI Memory]: 91 MB (+6809kb) [00:01:55]
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 20 16:22:40 2019] Launched impl_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/impl_1/runme.log 
+// [GUI Memory]: 97 MB (+2152kb) [00:02:06]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 103 MB (+802kb) [00:05:41]
+// Elapsed time: 237 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cj): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cj)
+// Tcl Message: write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// HMemoryUtils.trashcanNow. Engine heap size: 746 MB. GUI used memory: 56 MB. Current time: 11/20/19 4:26:45 PM CST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Elapsed time: 16 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New Project..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// g (cj): New Project: addNotify
+dismissDialog("New Project"); // g (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cj): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+dismissDialog("Export Hardware"); // X (cj)
+// Tcl Message: file mkdir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk 
+// bs (cj):  Export Hardware : addNotify
+// Tcl Message: write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+dismissDialog("Export Hardware"); // bs (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 109 MB (+704kb) [00:26:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 59 MB. Current time: 11/20/19 4:56:45 PM CST
+// Elapsed time: 1996 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// bs (cj):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0 Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0 Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0 Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0 Adding cell -- digilentinc.com:ip:rgb2dvi:1.3 - rgb2dvi_0 Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_142M Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <design_1> from BD file <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 825 MB (+60390kb) [00:40:04]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 830 MB. GUI used memory: 65 MB. Current time: 11/20/19 5:00:46 PM CST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.973 ; gain = 87.699 
+dismissDialog("Open Block Design"); // bs (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// Elapsed time: 29 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (f, cj)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "gpio"); // OverlayTextField (Q, ResizableWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // O (O, ResizableWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 68 MB. Current time: 11/20/19 5:01:20 PM CST
+// bs (cj):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_1 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {5 1453 -216} [get_bd_cells axi_gpio_1]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {5 1453 -216} [get_bd_cells axi_gpio_1] 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dynclk_0_PXL_CLK_5X_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dynclk_0_PXL_CLK_5X_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+// Elapsed time: 19 seconds
+dismissDialog("Re-customize IP"); // r (cj)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+selectCheckBox((HResource) null, "All Inputs", true); // g (l, r): TRUE
+setText("GPIO Width", "8"); // z (bc, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// Tcl Command: 'set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_1]'
+// TclEventType: RSB_PROPERTY_CHANGE
+dismissDialog("Re-customize IP"); // r (cj)
+// r (cj): Re-customize IP: addNotify
+// bs (r):  Customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_1] 
+dismissDialog("Customize IP"); // bs (r)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (cC, cj)
+// [Engine Memory]: 868 MB (+1645kb) [00:41:08]
+// w (cj): Run Connection Automation: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 868 MB. GUI used memory: 70 MB. Current time: 11/20/19 5:01:50 PM CST
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true, true, ui.utils.TriState.True); // J (O, w) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+dismissDialog("Run Connection Automation"); // w (cj)
+// TclEventType: RSB_SCRIPT_TASK
+// bs (cj):  Run Connection Automation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: startgroup 
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_1/S_AXI] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_gpio_1/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41210000 [ 64K ]> 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_1/GPIO] 
+// Tcl Message: INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl_0 INFO: [board_rule 100-100] connect_bd_intf_net /gpio_rtl_0 /axi_gpio_1/GPIO 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1005, 151, 1048, 543, false, false, false, true, false); // fJ (k, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Interface Properties..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "cnt_cnt_1", true); // X (N, cj)
+// Tcl Command: 'set_property name cnt_cnt_1 [get_bd_intf_ports gpio_rtl_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cnt_cnt_1 [get_bd_intf_ports gpio_rtl_0] 
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1]", 0, true); // i (O, cj) - Node
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1]", 0, true, false, false, false, true, false); // i (O, cj) - Popup Trigger - Node
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au (cj): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 992 MB (+84968kb) [00:41:54]
+// Tcl Message: VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,029 MB. GUI used memory: 72 MB. Current time: 11/20/19 5:02:35 PM CST
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dynclk_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0.hwh Generated Block Design Tcl file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0_bd.tcl Generated Hardware Definition File d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/design_1_axi_smc_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_142M . 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,058 MB (+16488kb) [00:41:59]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1285.930 ; gain = 217.352 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_xbar_0] } 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_1_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_1_0, cache-ID = ef947ecdd77cff0a; cache size = 2.231 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 1a7672cd6f614aab; cache size = 2.231 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [GUI Memory]: 118 MB (+3928kb) [00:42:02]
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: RUN_RESET
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs -jobs 4 design_1_xbar_0_synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 126 MB (+1516kb) [00:42:04]
+// Tcl Message: [Wed Nov 20 17:02:44 2019] Launched design_1_xbar_0_synth_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/design_1_xbar_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// 'bn' command handler elapsed time: 70 seconds
+// Elapsed time: 68 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (f, cj)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "gpio"); // OverlayTextField (Q, ResizableWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // O (O, ResizableWindow)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_2 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {4 1497 -353} [get_bd_cells axi_gpio_2]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1497 -353} [get_bd_cells axi_gpio_2] 
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (f, cj)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "gpio"); // OverlayTextField (Q, ResizableWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // O (O, ResizableWindow)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_3 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {4 1512 -489} [get_bd_cells axi_gpio_3]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1512 -489} [get_bd_cells axi_gpio_3] 
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (cC, cj)
+// w (cj): Run Connection Automation: addNotify
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (4 out of 4 selected)]", 0, true, true, ui.utils.TriState.True); // J (O, w) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+dismissDialog("Run Connection Automation"); // w (cj)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bs (cj):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_2/S_AXI] 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_gpio_2/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41220000 [ 64K ]> 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_2/GPIO] 
+// Tcl Message: INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl_0 INFO: [board_rule 100-100] connect_bd_intf_net /gpio_rtl_0 /axi_gpio_2/GPIO 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_3/S_AXI] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_gpio_3/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41230000 [ 64K ]> 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_3/GPIO] 
+// Tcl Message: INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl_1 INFO: [board_rule 100-100] connect_bd_intf_net /gpio_rtl_1 /axi_gpio_3/GPIO 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Run Connection Automation"); // bs (cj)
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1015, 120, 1048, 543, false, false, false, true, false); // fJ (k, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Interface Properties..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// HMemoryUtils.trashcanNow. Engine heap size: 1,080 MB. GUI used memory: 81 MB. Current time: 11/20/19 5:04:05 PM CST
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "cnt_cnt_2", true); // X (N, cj)
+// Tcl Command: 'set_property name cnt_cnt_2 [get_bd_intf_ports gpio_rtl_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cnt_cnt_2 [get_bd_intf_ports gpio_rtl_0] 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// Elapsed time: 13 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "cnt_cnt_3", true); // X (N, cj)
+// Tcl Command: 'set_property name cnt_cnt_3 [get_bd_intf_ports gpio_rtl_1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cnt_cnt_3 [get_bd_intf_ports gpio_rtl_1] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: save_bd_design 
+// bs (cj):  Save Design : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Save Design"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au (cj): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,129 MB (+19107kb) [00:44:08]
+// Tcl Message: VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dynclk_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,173 MB. GUI used memory: 81 MB. Current time: 11/20/19 5:04:50 PM CST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0.hwh Generated Block Design Tcl file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0_bd.tcl Generated Hardware Definition File d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/design_1_axi_smc_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_142M . 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,187 MB (+1832kb) [00:44:12]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_2 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1402.957 ; gain = 100.656 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_xbar_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_2_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_3_0] } 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 1a7672cd6f614aab; cache size = 2.951 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 133 MB (+918kb) [00:44:16]
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs -jobs 4 {design_1_xbar_0_synth_1 design_1_axi_gpio_2_0_synth_1 design_1_axi_gpio_3_0_synth_1} 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 20 17:04:59 2019] Launched design_1_xbar_0_synth_1, design_1_axi_gpio_2_0_synth_1, design_1_axi_gpio_3_0_synth_1... Run output will be captured here: design_1_xbar_0_synth_1: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/design_1_xbar_0_synth_1/runme.log design_1_axi_gpio_2_0_synth_1: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/design_1_axi_gpio_2_0_synth_1/runme.log design_1_axi_gpio_3_0_synth_1: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/design_1_axi_gpio_3_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 148 MB (+8618kb) [00:45:28]
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 156 MB (+544kb) [00:46:38]
+// 'bn' command handler elapsed time: 421 seconds
+// Elapsed time: 419 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// [GUI Memory]: 164 MB (+508kb) [00:51:39]
+// Elapsed time: 109 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 31 seconds
+selectCodeEditor("design_1_wrapper.v", 418, 338); // cd (w, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // B (D, cj)
+// [GUI Memory]: 174 MB (+1687kb) [00:53:24]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectCodeEditor("design_1_wrapper.v", 485, 319); // cd (w, cj)
+// Elapsed time: 32 seconds
+selectCodeEditor("design_1_wrapper.v", 5, 259); // cd (w, cj)
+// Elapsed time: 21 seconds
+selectCodeEditor("design_1_wrapper.v", 0, 296); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 0, 311); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 0, 328); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 1, 353); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 186, 241); // cd (w, cj)
+// [GUI Memory]: 184 MB (+1897kb) [00:54:41]
+selectCodeEditor("design_1_wrapper.v", 286, 255); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("design_1_wrapper.v", 216, 232); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 302, 274); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 3, 180); // cd (w, cj)
+// Elapsed time: 17 seconds
+selectCodeEditor("design_1_wrapper.v", 323, 383); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// bs (cj):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bs (cj)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+selectCheckBox((HResource) null, "All Inputs", true); // g (l, r): TRUE
+setText("GPIO Width", "8", true); // z (bc, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// Tcl Command: 'set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_3]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_3] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+selectCheckBox((HResource) null, "All Inputs", true); // g (l, r): TRUE
+setText("GPIO Width", "8", true); // z (bc, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// Tcl Command: 'set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_2]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_2] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cj)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cj)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs (cj):  Save Design : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>  
+dismissDialog("Save Design"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au (cj): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. INFO: [xilinx.com:ip:axi_vdma:6.3-16] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dynclk_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0.hwh Generated Block Design Tcl file d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/hw_handoff/design_1_axi_smc_0_bd.tcl Generated Hardware Definition File d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/design_1_axi_smc_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_142M . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_2 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1642.473 ; gain = 96.809 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_2_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_2_0, cache-ID = ef947ecdd77cff0a; cache size = 4.505 MB. 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: catch { [ delete_ip_run [get_ips -all design_1_axi_gpio_2_0] ] } 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_3_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_3_0, cache-ID = ef947ecdd77cff0a; cache size = 4.505 MB. 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: catch { [ delete_ip_run [get_ips -all design_1_axi_gpio_3_0] ] } 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 1a7672cd6f614aab; cache size = 4.505 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 194 MB (+772kb) [00:56:25]
+// TclEventType: PROJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,216 MB. GUI used memory: 97 MB. Current time: 11/20/19 5:17:06 PM CST
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// 'bn' command handler elapsed time: 32 seconds
+// Elapsed time: 31 seconds
+dismissDialog("Managing Output Products"); // bs (cj)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cZ, cj)
+selectCodeEditor("design_1_wrapper.v", 140, 176); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 131, 198); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 130, 195); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 147, 252); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 195, 236); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 291, 295); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("design_1_wrapper.v", 173, 293); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 286, 294); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 257, 398); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 266, 409); // cd (w, cj)
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // B (D, cj)
+selectCodeEditor("design_1_wrapper.v", 304, 386); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 19, 392); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("CounterS.v", 40, 14); // cd (w, cj)
+selectCodeEditor("CounterS.v", 66, 10, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectCodeEditor("CounterS.v", 53, 5); // cd (w, cj)
+selectCodeEditor("CounterS.v", 44, 6); // cd (w, cj)
+typeControlKey((HResource) null, "CounterS.v", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 2); // k (j, cj)
+selectCodeEditor("design_1_wrapper.v", 15, 392); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 65, 417); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 65, 423); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 28, 422); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 35, 411); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CounterS.v", 3); // k (j, cj)
+selectCodeEditor("CounterS.v", 11, 27); // cd (w, cj)
+typeControlKey((HResource) null, "CounterS.v", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 2); // k (j, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 24, 426); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 45, 411); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 53, 407); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 52, 423); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 45, 431); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 56, 446); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 432, 449); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 66, 346); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 75, 371); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// bs (cj):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bs (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK1 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ps7_0_100M_peripheral_aresetn 
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("design_1_wrapper.v", 78, 347); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 85, 375); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("design_1_wrapper.v", 232, 402); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 120, 392); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 27, 393); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 109, 395); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 338, 353); // cd (w, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("design_1_wrapper.v", 137, 255); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 126, 312); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 211, 256); // cd (w, cj)
+// Elapsed time: 46 seconds
+selectCodeEditor("design_1_wrapper.v", 214, 278); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("design_1_wrapper.v", 60, 314); // cd (w, cj)
+// Elapsed time: 21 seconds
+selectCodeEditor("design_1_wrapper.v", 79, 384); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 171, 399); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 136, 352); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 112, 404); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 170, 424); // cd (w, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), Counters_0 : CounterS (CounterS.v)]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("design_1_wrapper.v", 69, 403); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 151, 347); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 119, 404); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 174, 427); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 94, 441); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 159, 353); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 123, 412); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 326, 377); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("design_1_wrapper.v", 190, 276); // cd (w, cj)
+// Elapsed time: 16 seconds
+selectCodeEditor("design_1_wrapper.v", 89, 47); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 309, 104); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 77, 182); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CounterS.v", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 2); // k (j, cj)
+selectCodeEditor("design_1_wrapper.v", 11, 185); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 72, 204); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 143, 196); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 151, 200); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 207, 271); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 217, 405); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 13, 139); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("design_1_wrapper.v", 76, 164); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 104, 107); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+// Elapsed time: 17 seconds
+selectCodeEditor("design_1_wrapper.v", 148, 126); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 183, 388); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 113, 159); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 247, 154); // cd (w, cj)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 75, 216); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 53, 124); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 269, 124); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 242, 122); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'c'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 31, 140); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 105, 146); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 260, 137); // cd (w, cj)
+typeControlKey((HResource) null, "design_1_wrapper.v", 'v'); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 106, 164); // cd (w, cj)
+selectCodeEditor("design_1_wrapper.v", 301, 159); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cj): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // x (cj)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 20 17:28:56 2019] Launched synth_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cj): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // x (cj)
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7z020clg400-2 Top: design_1_wrapper 
+// [Engine Memory]: 1,248 MB (+2246kb) [01:09:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,274 MB. GUI used memory: 88 MB. Current time: 11/20/19 5:30:11 PM CST
+// [Engine Memory]: 1,666 MB (+372695kb) [01:09:38]
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 1,777 MB (+28537kb) [01:09:53]
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,777 MB. GUI used memory: 87 MB. Current time: 11/20/19 5:30:36 PM CST
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,788 MB. GUI used memory: 87 MB. Current time: 11/20/19 5:30:37 PM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: D:/vivadoseven/Vivado/2017.4/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.6s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,887 MB (+21868kb) [01:09:58]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1745.160 ; gain = 91.145 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_processing_system7_0_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1_processing_system7_0_0' (8#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_processing_system7_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_142M_0' [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_rst_ps7_0_142M_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps7_0_142M_0' (22#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_rst_ps7_0_142M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'design_1_v_axi4s_vid_out_0_1' [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_v_axi4s_vid_out_0_1_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1_v_axi4s_vid_out_0_1' (23#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_v_axi4s_vid_out_0_1_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'design_1_v_tc_0_0' [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_v_tc_0_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1_v_tc_0_0' (24#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_v_tc_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'design_1_xlconcat_0_0' [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_xlconcat_0_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1_xlconcat_0_0' (25#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/realtime/design_1_xlconcat_0_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'design_1' (26#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/synth/design_1.v:13] INFO: [Synth 8-638] synthesizing module 'IOBUF' [D:/vivadoseven/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'IOBUF' (27#1) [D:/vivadoseven/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22655] INFO: [Synth 8-638] synthesizing module 'CounterS' [D:/PROJECT_XL/10_vdma_hdmi_out_7/design_file/CounterS.v:1] 
+// Tcl Message: 	Parameter CNT_MAX_VAL bound to: 8'b11111111  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'CounterS' (28#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/design_file/CounterS.v:1] INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (29#1) [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1790.035 ; gain = 136.020 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1790.035 ; gain = 136.020 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst' Finished Parsing XDC File [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst' 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks 
+// Tcl Message: Parsing XDC File [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/constrs_1/new/hdmi_out.xdc] 
+// Tcl Message: Finished Parsing XDC File [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/constrs_1/new/hdmi_out.xdc] 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0/design_1_v_tc_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Sourcing Tcl File [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst' Finished Sourcing Tcl File [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst' 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 45 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 2 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 43 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:34 . Memory (MB): peak = 2186.156 ; gain = 532.141 
+// Tcl Message: 89 Infos, 42 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:35 . Memory (MB): peak = 2186.156 ; gain = 532.141 
+// 'dO' command handler elapsed time: 36 seconds
+// Elapsed time: 35 seconds
+dismissDialog("Open Elaborated Design"); // bs (cj)
+// PAPropertyPanels.initPanels (clk) elapsed time: 0.3s
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Nov 20 17:31:24 2019] Launched impl_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/impl_1/runme.log 
+// bs (cj):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (cj): Bitstream Generation Failed: addNotify
+// Elapsed time: 190 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Failed"); // ah (cj)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream ERROR ; 1.0582406520843506 ; 0.0 ; 0.03944355994462967 ; 0.0 ; 0.0 ; 1.9023396968841553 ; 0 ; 3972 ; 6954 ; 8.0 ; 0 ; 0 ; Wed Nov 20 17:31:35 CST 2019 ; 00:02:39 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; Vivado Implementation Default Reports (Vivado Implementation 2017) ; xc7z020clg400-2 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ax (O, cj)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.5s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream ERROR ; 1.0582406520843506 ; 0.0 ; 0.03944355994462967 ; 0.0 ; 0.0 ; 1.9023396968841553 ; 0 ; 3972 ; 6954 ; 8.0 ; 0 ; 0 ; Wed Nov 20 17:31:35 CST 2019 ; 00:02:39 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; Vivado Implementation Default Reports (Vivado Implementation 2017) ; xc7z020clg400-2 ; Default settings for Implementation.", 1, "impl_1", 0, false, false, false, false, false, true); // ax (O, cj) - Double Click
+// bs (cj):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bs)
+// TclEventType: READ_XDC_FILE_START
+// [Engine Memory]: 2,013 MB (+33827kb) [01:14:09]
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,014 MB. GUI used memory: 124 MB. Current time: 11/20/19 5:34:51 PM CST
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_No", "No"); // JButton (A, G)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bs)
+// TclEventType: READ_XDC_FILE_END
+// HMemoryUtils.trashcanNow. Engine heap size: 2,488 MB. GUI used memory: 123 MB. Current time: 11/20/19 5:35:06 PM CST
+// [Engine Memory]: 2,489 MB (+393338kb) [01:14:26]
+// TclEventType: DESIGN_CLOSE
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 330 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0/design_1_v_tc_0_0_clocks.xdc:5] INFO: [Timing 38-2] Deriving generated clocks [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0/design_1_v_tc_0_0_clocks.xdc:5] INFO: [Common 17-344] 'get_clocks' was cancelled [D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0/design_1_v_tc_0_0_clocks.xdc:5] 
+// Tcl Message: Finished Parsing XDC File [D:/PROJECT_XL/10_vdma_hdmi_out_7/.Xil/Vivado-13100-DESKTOP-77K8HB5/dcp71/design_1_wrapper_late.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2897.660 ; gain = 14.859 open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 2927.328 ; gain = 737.203 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Elapsed time: 11 seconds
+dismissDialog("Open Implemented Design"); // bs (cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("hdmi_out.xdc", 356, 451); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 325, 379); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 308, 429); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 318, 443); // cd (w, cj)
+typeControlKey((HResource) null, "hdmi_out.xdc", 'c'); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 356, 443); // cd (w, cj)
+typeControlKey((HResource) null, "hdmi_out.xdc", 'v'); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, hdmi_out.xdc]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+typeControlKey((HResource) null, "hdmi_out.xdc", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "hdmi_out.xdc", 'v'); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 313, 313); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("hdmi_out.xdc", 524, 388); // cd (w, cj)
+// Elapsed time: 56 seconds
+selectCodeEditor("hdmi_out.xdc", 180, 252); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 159, 318); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 184, 311); // cd (w, cj)
+selectCodeEditor("hdmi_out.xdc", 182, 311); // cd (w, cj)
+// Elapsed time: 16 seconds
+selectCodeEditor("hdmi_out.xdc", 179, 260); // cd (w, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("hdmi_out.xdc", 340, 345); // cd (w, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 125 MB. Current time: 11/20/19 5:38:03 PM CST
+// Engine heap size: 2,518 MB. GUI used memory: 126 MB. Current time: 11/20/19 5:38:03 PM CST
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// Tcl Message: Parsing XDC File [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst' 
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 94 MB. Current time: 11/20/19 5:38:09 PM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: Finished Parsing XDC File [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst' 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0/design_1_v_tc_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Sourcing Tcl File [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst' Finished Sourcing Tcl File [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst' 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoseven/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2927.328 ; gain = 0.000 
+// Elapsed time: 12 seconds
+dismissDialog("Reloading"); // bs (cj)
+selectCodeEditor("hdmi_out.xdc", 343, 382); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Wed Nov 20 17:38:30 2019] Launched synth_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 109 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Nov 20 17:40:25 2019] Launched impl_1... Run output will be captured here: D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 1268 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cj): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (X)
+dismissDialog("Export Hardware"); // X (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cj): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cj)
+// Tcl Message: write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// bs (cj):  Export Hardware : addNotify
+dismissDialog("Export Hardware"); // bs (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 129 MB. Current time: 11/20/19 6:08:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 120 MB. Current time: 11/20/19 6:38:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 119 MB. Current time: 11/20/19 7:08:12 PM CST
+// Elapsed time: 4629 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cj): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cj)
+// Tcl Message: write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// bs (cj):  Export Hardware : addNotify
+dismissDialog("Export Hardware"); // bs (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 32 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 120 MB. Current time: 11/20/19 7:38:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 120 MB. Current time: 11/20/19 8:08:12 PM CST
+// Elapsed time: 2897 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,518 MB. GUI used memory: 120 MB. Current time: 11/20/19 8:38:12 PM CST

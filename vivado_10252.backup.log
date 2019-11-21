@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 20 22:36:02 2019
+# Process ID: 10252
+# Current directory: D:/PROJECT_XL/10_vdma_hdmi_out_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10504 D:\PROJECT_XL\10_vdma_hdmi_out_8\vdma_hdmi_out.xpr
+# Log file: D:/PROJECT_XL/10_vdma_hdmi_out_8/vivado.log
+# Journal file: D:/PROJECT_XL/10_vdma_hdmi_out_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.xpr
+INFO: [Project 1-313] Project file moved from 'D:/PROJECT_XL/10_vdma_hdmi_out_7' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/PROJECT_XL/10_vdma_hdmi_out_8/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivadoseven/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 907.711 ; gain = 185.641
+update_compile_order -fileset sources_1
+file mkdir D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_8/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 22:46:15 2019...

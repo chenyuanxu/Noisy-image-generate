@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 20 16:20:35 2019
+# Process ID: 13100
+# Current directory: D:/PROJECT_XL/10_vdma_hdmi_out_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13224 D:\PROJECT_XL\10_vdma_hdmi_out_7\vdma_hdmi_out.xpr
+# Log file: D:/PROJECT_XL/10_vdma_hdmi_out_7/vivado.log
+# Journal file: D:/PROJECT_XL/10_vdma_hdmi_out_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+file mkdir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_1
+endgroup
+set_property location {5 1453 -216} [get_bd_cells axi_gpio_1]
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_1]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_1/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_1/GPIO]
+endgroup
+set_property name cnt_cnt_1 [get_bd_intf_ports gpio_rtl_0]
+generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+catch { config_ip_cache -export [get_ips -all design_1_xbar_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_1_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs -jobs 4 design_1_xbar_0_synth_1
+export_simulation -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/sim_scripts -ip_user_files_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files -ipstatic_source_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/modelsim} {questa=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/questa} {riviera=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/riviera} {activehdl=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_2
+endgroup
+set_property location {4 1497 -353} [get_bd_cells axi_gpio_2]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_3
+endgroup
+set_property location {4 1512 -489} [get_bd_cells axi_gpio_3]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_2/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_2/GPIO]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_3/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_gpio_3/GPIO]
+endgroup
+set_property name cnt_cnt_2 [get_bd_intf_ports gpio_rtl_0]
+set_property name cnt_cnt_3 [get_bd_intf_ports gpio_rtl_1]
+save_bd_design
+generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+catch { config_ip_cache -export [get_ips -all design_1_xbar_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_2_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_3_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs -jobs 4 {design_1_xbar_0_synth_1 design_1_axi_gpio_2_0_synth_1 design_1_axi_gpio_3_0_synth_1}
+export_simulation -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/sim_scripts -ip_user_files_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files -ipstatic_source_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/modelsim} {questa=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/questa} {riviera=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/riviera} {activehdl=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_3]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_2]
+endgroup
+save_bd_design
+generate_target all [get_files  D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_2_0] }
+catch { [ delete_ip_run [get_ips -all design_1_axi_gpio_2_0] ] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_gpio_3_0] }
+catch { [ delete_ip_run [get_ips -all design_1_axi_gpio_3_0] ] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/sim_scripts -ip_user_files_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files -ipstatic_source_dir D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/modelsim} {questa=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/questa} {riviera=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/riviera} {activehdl=D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+synth_design -rtl -name rtl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd]
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_7/vdma_hdmi_out.sdk/design_1_wrapper.hdf

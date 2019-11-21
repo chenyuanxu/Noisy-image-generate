@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 20 16:00:13 2019
+# Process ID: 10672
+# Current directory: D:/PROJECT_XL/10_vdma_hdmi_out_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7408 D:\PROJECT_XL\10_vdma_hdmi_out_3\vdma_hdmi_out.xpr
+# Log file: D:/PROJECT_XL/10_vdma_hdmi_out_3/vivado.log
+# Journal file: D:/PROJECT_XL/10_vdma_hdmi_out_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/PROJECT_XL/10_vdma_hdmi_out_3/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivadoseven/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 888.746 ; gain = 179.379
+update_compile_order -fileset sources_1
+open_bd_design {D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- digilentinc.com:ip:rgb2dvi:1.3 - rgb2dvi_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_142M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_dynclk_0/LOCKED_O(undef) and /rgb2dvi_0/aRst_n(rst)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 989.996 ; gain = 91.449
+write_hwdef -force  -file D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.sdk -hwspec D:/PROJECT_XL/10_vdma_hdmi_out_3/vdma_hdmi_out.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 16:18:07 2019...
